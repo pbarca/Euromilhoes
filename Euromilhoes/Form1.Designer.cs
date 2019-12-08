@@ -1038,7 +1038,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.BackgroundImage = global::Euromilhoes.Properties.Resources.euromilhoes1;
+            this.BackgroundImage = global::Euromilhoes.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1121, 792);
             this.Controls.Add(this.label65);
