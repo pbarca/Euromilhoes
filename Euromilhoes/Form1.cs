@@ -10,38 +10,19 @@ namespace Euromilhoes
             InitializeComponent();
         }
 
-        private int nestrelas = 0, nnumero = 0;
-        private string cruz = "✗";
+        private euromilhoes E = new euromilhoes();
         private void estrela(object sender, EventArgs e)
         {
-            Label temp = (Label)sender;
-            if (temp.Text == cruz)
-            {
-                temp.Text = "";
-                nestrelas--;
-            }
-            else if (nestrelas < 2)
-            {
-                temp.Text = cruz;
-                nestrelas++;
-                teste.Text = temp.Tag.ToString();
-            }
+            Label tmp = (Label)sender;
+            tmp.Text = E.estrela(Convert.ToInt32(tmp.Tag)-1);
+            estrelas.Text = E.listaestrelas;
         }
 
         private void numero(object sender, EventArgs e)
         {
-            Label temp = (Label)sender;
-            if (temp.Text == cruz)
-            {
-                temp.Text = "";
-                nnumero--;
-            }
-            else if (nnumero < 5)
-            {
-                temp.Text = cruz;
-                nnumero++;
-                teste.Text = temp.Tag.ToString();
-            }
+            Label tmp = (Label)sender;
+            tmp.Text = E.numero(Convert.ToInt32(tmp.Tag)-1);
+            numeros.Text = E.listanum;
         }
     }
 }

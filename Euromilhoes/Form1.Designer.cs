@@ -89,9 +89,10 @@
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
-            this.teste = new System.Windows.Forms.Label();
+            this.numeros = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
+            this.estrelas = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -994,16 +995,18 @@
             this.label60.UseCompatibleTextRendering = true;
             this.label60.Click += new System.EventHandler(this.numero);
             // 
-            // teste
+            // numeros
             // 
-            this.teste.AutoSize = true;
-            this.teste.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste.Location = new System.Drawing.Point(760, 39);
-            this.teste.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.teste.Name = "teste";
-            this.teste.Size = new System.Drawing.Size(223, 69);
-            this.teste.TabIndex = 62;
-            this.teste.Text = "label63";
+            this.numeros.AutoSize = true;
+            this.numeros.BackColor = System.Drawing.Color.Transparent;
+            this.numeros.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numeros.ForeColor = System.Drawing.Color.Gold;
+            this.numeros.Location = new System.Drawing.Point(649, 9);
+            this.numeros.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.numeros.Name = "numeros";
+            this.numeros.Size = new System.Drawing.Size(229, 55);
+            this.numeros.TabIndex = 62;
+            this.numeros.Text = "numeros";
             // 
             // label65
             // 
@@ -1035,6 +1038,19 @@
             this.label66.UseCompatibleTextRendering = true;
             this.label66.Click += new System.EventHandler(this.numero);
             // 
+            // estrelas
+            // 
+            this.estrelas.AutoSize = true;
+            this.estrelas.BackColor = System.Drawing.Color.Transparent;
+            this.estrelas.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.estrelas.ForeColor = System.Drawing.Color.Gold;
+            this.estrelas.Location = new System.Drawing.Point(649, 71);
+            this.estrelas.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.estrelas.Name = "estrelas";
+            this.estrelas.Size = new System.Drawing.Size(214, 55);
+            this.estrelas.TabIndex = 65;
+            this.estrelas.Text = "estrelas";
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -1042,9 +1058,10 @@
             this.BackgroundImage = global::Euromilhoes.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1121, 792);
+            this.Controls.Add(this.estrelas);
             this.Controls.Add(this.label65);
             this.Controls.Add(this.label66);
-            this.Controls.Add(this.teste);
+            this.Controls.Add(this.numeros);
             this.Controls.Add(this.label37);
             this.Controls.Add(this.label38);
             this.Controls.Add(this.label39);
@@ -1178,9 +1195,10 @@
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label teste;
+        private System.Windows.Forms.Label numeros;
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label estrelas;
     }
 }
 
