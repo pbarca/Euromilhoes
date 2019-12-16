@@ -89,10 +89,16 @@
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
-            this.numeros = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
-            this.estrelas = new System.Windows.Forms.Label();
+            this.n5 = new System.Windows.Forms.Label();
+            this.n4 = new System.Windows.Forms.Label();
+            this.n3 = new System.Windows.Forms.Label();
+            this.n2 = new System.Windows.Forms.Label();
+            this.n1 = new System.Windows.Forms.Label();
+            this.e2 = new System.Windows.Forms.Label();
+            this.e1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -995,19 +1001,6 @@
             this.label60.UseCompatibleTextRendering = true;
             this.label60.Click += new System.EventHandler(this.numero);
             // 
-            // numeros
-            // 
-            this.numeros.AutoSize = true;
-            this.numeros.BackColor = System.Drawing.Color.Transparent;
-            this.numeros.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numeros.ForeColor = System.Drawing.Color.Gold;
-            this.numeros.Location = new System.Drawing.Point(649, 9);
-            this.numeros.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.numeros.Name = "numeros";
-            this.numeros.Size = new System.Drawing.Size(229, 55);
-            this.numeros.TabIndex = 62;
-            this.numeros.Text = "numeros";
-            // 
             // label65
             // 
             this.label65.BackColor = System.Drawing.Color.Transparent;
@@ -1038,18 +1031,122 @@
             this.label66.UseCompatibleTextRendering = true;
             this.label66.Click += new System.EventHandler(this.numero);
             // 
-            // estrelas
+            // n5
             // 
-            this.estrelas.AutoSize = true;
-            this.estrelas.BackColor = System.Drawing.Color.Transparent;
-            this.estrelas.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.estrelas.ForeColor = System.Drawing.Color.Gold;
-            this.estrelas.Location = new System.Drawing.Point(649, 71);
-            this.estrelas.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.estrelas.Name = "estrelas";
-            this.estrelas.Size = new System.Drawing.Size(214, 55);
-            this.estrelas.TabIndex = 65;
-            this.estrelas.Text = "estrelas";
+            this.n5.BackColor = System.Drawing.Color.White;
+            this.n5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.n5.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n5.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.n5.Location = new System.Drawing.Point(983, 22);
+            this.n5.Margin = new System.Windows.Forms.Padding(0);
+            this.n5.Name = "n5";
+            this.n5.Size = new System.Drawing.Size(46, 46);
+            this.n5.TabIndex = 69;
+            this.n5.Tag = "5";
+            this.n5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.n5.UseCompatibleTextRendering = true;
+            // 
+            // n4
+            // 
+            this.n4.BackColor = System.Drawing.Color.White;
+            this.n4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.n4.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n4.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.n4.Location = new System.Drawing.Point(924, 22);
+            this.n4.Margin = new System.Windows.Forms.Padding(0);
+            this.n4.Name = "n4";
+            this.n4.Size = new System.Drawing.Size(46, 46);
+            this.n4.TabIndex = 68;
+            this.n4.Tag = "4";
+            this.n4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.n4.UseCompatibleTextRendering = true;
+            // 
+            // n3
+            // 
+            this.n3.BackColor = System.Drawing.Color.White;
+            this.n3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.n3.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n3.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.n3.Location = new System.Drawing.Point(865, 22);
+            this.n3.Margin = new System.Windows.Forms.Padding(0);
+            this.n3.Name = "n3";
+            this.n3.Size = new System.Drawing.Size(46, 46);
+            this.n3.TabIndex = 67;
+            this.n3.Tag = "3";
+            this.n3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.n3.UseCompatibleTextRendering = true;
+            // 
+            // n2
+            // 
+            this.n2.BackColor = System.Drawing.Color.White;
+            this.n2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.n2.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n2.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.n2.Location = new System.Drawing.Point(806, 22);
+            this.n2.Margin = new System.Windows.Forms.Padding(0);
+            this.n2.Name = "n2";
+            this.n2.Size = new System.Drawing.Size(46, 46);
+            this.n2.TabIndex = 66;
+            this.n2.Tag = "2";
+            this.n2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.n2.UseCompatibleTextRendering = true;
+            // 
+            // n1
+            // 
+            this.n1.BackColor = System.Drawing.Color.White;
+            this.n1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.n1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n1.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.n1.Location = new System.Drawing.Point(747, 22);
+            this.n1.Margin = new System.Windows.Forms.Padding(0);
+            this.n1.Name = "n1";
+            this.n1.Size = new System.Drawing.Size(46, 46);
+            this.n1.TabIndex = 65;
+            this.n1.Tag = "1";
+            this.n1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.n1.UseCompatibleTextRendering = true;
+            // 
+            // e2
+            // 
+            this.e2.BackColor = System.Drawing.Color.White;
+            this.e2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.e2.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.e2.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.e2.Location = new System.Drawing.Point(983, 77);
+            this.e2.Margin = new System.Windows.Forms.Padding(0);
+            this.e2.Name = "e2";
+            this.e2.Size = new System.Drawing.Size(46, 46);
+            this.e2.TabIndex = 71;
+            this.e2.Tag = "5";
+            this.e2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.e2.UseCompatibleTextRendering = true;
+            // 
+            // e1
+            // 
+            this.e1.BackColor = System.Drawing.Color.White;
+            this.e1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.e1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.e1.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.e1.Location = new System.Drawing.Point(924, 77);
+            this.e1.Margin = new System.Windows.Forms.Padding(0);
+            this.e1.Name = "e1";
+            this.e1.Size = new System.Drawing.Size(46, 46);
+            this.e1.TabIndex = 70;
+            this.e1.Tag = "4";
+            this.e1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.e1.UseCompatibleTextRendering = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.button1.Location = new System.Drawing.Point(458, 705);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(231, 60);
+            this.button1.TabIndex = 72;
+            this.button1.Text = "SORTEAR";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -1058,10 +1155,16 @@
             this.BackgroundImage = global::Euromilhoes.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1121, 792);
-            this.Controls.Add(this.estrelas);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.e2);
+            this.Controls.Add(this.e1);
+            this.Controls.Add(this.n5);
+            this.Controls.Add(this.n4);
+            this.Controls.Add(this.n3);
+            this.Controls.Add(this.n2);
+            this.Controls.Add(this.n1);
             this.Controls.Add(this.label65);
             this.Controls.Add(this.label66);
-            this.Controls.Add(this.numeros);
             this.Controls.Add(this.label37);
             this.Controls.Add(this.label38);
             this.Controls.Add(this.label39);
@@ -1129,7 +1232,6 @@
             this.Name = "Form1";
             this.Text = "euromilhões";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1195,10 +1297,16 @@
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label numeros;
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label estrelas;
+        private System.Windows.Forms.Label n5;
+        private System.Windows.Forms.Label n4;
+        private System.Windows.Forms.Label n3;
+        private System.Windows.Forms.Label n2;
+        private System.Windows.Forms.Label n1;
+        private System.Windows.Forms.Label e2;
+        private System.Windows.Forms.Label e1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
